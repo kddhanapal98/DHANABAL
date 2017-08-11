@@ -2,14 +2,12 @@
  
 int main()
 {
-    char ch;
-     
-    /* Reads a character from user */
+    char c;
     printf("Enter any character: ");
-    scanf("%c", &ch);
+    scanf("%cd", &c);
      
  
-    if((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z'))
+    if((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
     {
         printf("Character is an ALPHABET.");
     }
