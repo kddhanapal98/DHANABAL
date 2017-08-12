@@ -1,25 +1,25 @@
 int main()
 {
-    int year;
+    int yea;
 
-    printf("Enter a year: ");
-    scanf("%d",&year);
+    printf("Enter a yea: ");
+    scanf("%d",&yea);
 
-    if(year%4 == 0)
+    if(yea%4 == 0)
     {
-        if( year%100 == 0)
+        if( yea%100 == 0)
         {
-            // year is divisible by 400, hence the year is a leap year
-            if ( year%400 == 0)
-                printf("%d is a leap year.", year);
+            // yea is divisible by 400, hence the year is a leap year
+            if ( yea%400 == 0)
+                printf("%d is a leap year.", yea);
             else
-                printf("%d is not a leap year.", year);
+                printf("%d is not a leap year.", yea);
         }
         else
-            printf("%d is a leap year.", year );
+            printf("%d is a leap year.", yea );
     }
     else
-        printf("%d is not a leap year.", year);
+        printf("%d is not a leap year.", yea);
     
     return 0;
 }
