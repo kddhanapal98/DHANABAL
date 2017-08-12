@@ -1,19 +1,19 @@
 #include <stdio.h>
 int main()
 {
-    int n, reversedInteger = 0, remainder, originalInteger;
+    int m, reversedInteger = 0, remainder, originalInteger;
 
     printf("Enter an integer: ");
-    scanf("%d", &n);
+    scanf("%d", &m);
 
-    originalInteger = n;
+    originalInteger = m;
 
     // reversed integer is stored in variable 
-    while( n!=0 )
+    while( m!=0 )
     {
-        remainder = n%10;
+        remainder = m%10;
         reversedInteger = reversedInteger*10 + remainder;
-        n /= 10;
+        m /= 10;
     }
 
     // palindrome if orignalInteger and reversedInteger are equal
