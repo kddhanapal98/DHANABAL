@@ -1,19 +1,19 @@
 #include <stdio.h>
 int main()
 {
-    double d1, d2, d3;
+    double s1, s2, s3;
 
     printf("Enter three different numbers: ");
-    scanf("%lf %lf %lf", &d1, &d2, &d3);
+    scanf("%lf %lf %lf", &s1, &s2, &s3);
 
-    if( d1>=d2 && d1>=d3 )
-        printf("%.2f is the largest number.", d1);
+    if( s1>=s2 && s1>=s3 )
+        printf("%.2f is the largest number.", s1);
 
-    if( d2>=d1 && d2>=d3 )
-        printf("%.2f is the largest number.", d2);
+    if( s2>=s1 && s2>=s3 )
+        printf("%.2f is the largest number.", s2);
 
-    if( d3>=d1 && d3>=d2 )
-        printf("%.2f is the largest number.", d3);
+    if( s3>=s1 && s3>=s2 )
+        printf("%.2f is the largest number.", s3);
 
     return 0;
 }
